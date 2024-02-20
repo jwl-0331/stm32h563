@@ -18,11 +18,14 @@
 #include "Reset.h"
 #include "RTC.h"
 #include "svRingBuffer.h"
+#include "string.h"
+#include "cmsis_os2.h"
 //#include "Flash.h"
 
 /* TaskTimer - Test*/
 svTaskTimer_DEF(svTimer, 10);
 
+void MX_FREERTOS_Init(void);
 
 void AppMain(void)
 {
@@ -35,8 +38,17 @@ void AppMain(void)
   svDebugInit();
   LED_Init();
   LED_SimpleAnimation();
-  DebugMsg(DEBUGMSG_APP, "\r\n<< svCLI TEST : >>\r\n");
+  //DebugMsg(DEBUGMSG_APP, "\r\n<< svCLI TEST : >>\r\n");
   //uint32_t pre_time = HAL_GetTick();
+
+  /* Init scheduler */
+  osKernelInitialize();
+
+  /* Call init function for freertos objects (in freertos.c) */
+  MX_FREERTOS_Init();
+
+  /* Start scheduler */
+  osKernelStart();
   while(1)
   {
     svDebugProcess();

@@ -55,7 +55,9 @@ Core/Src/app_freertos.o: ../Core/Src/app_freertos.c \
  ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_ll_gpio.h \
  ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_ll_dma.h \
  ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_ll_exti.h \
- ../Middlewares/Third_Party/CMSIS/RTOS2/Include/cmsis_os2.h
+ ../Middlewares/Third_Party/CMSIS/RTOS2/Include/cmsis_os2.h \
+ C:/CubeWorspace/stm32h563_fw/Drivers/BSP/inc/UART.h \
+ C:/CubeWorspace/stm32h563_fw/Drivers/BSP/inc/BSPConfig.h
 ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
 ../Core/Inc/FreeRTOSConfig.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h:
@@ -114,3 +116,5 @@ Core/Src/app_freertos.o: ../Core/Src/app_freertos.c \
 ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_ll_dma.h:
 ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_ll_exti.h:
 ../Middlewares/Third_Party/CMSIS/RTOS2/Include/cmsis_os2.h:
+C:/CubeWorspace/stm32h563_fw/Drivers/BSP/inc/UART.h:
+C:/CubeWorspace/stm32h563_fw/Drivers/BSP/inc/BSPConfig.h:

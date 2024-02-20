@@ -59,7 +59,8 @@ Core/Src/AppMain.o: ../Core/Src/AppMain.c ../Core/Inc/main.h \
  C:/CubeWorspace/stm32h563_fw/Drivers/BSP/inc/ASCII_escape.h \
  C:/CubeWorspace/stm32h563_fw/Middlewares/Solvine/Utils/inc/svRingBuffer.h \
  C:/CubeWorspace/stm32h563_fw/Drivers/BSP/inc/Reset.h \
- C:/CubeWorspace/stm32h563_fw/Drivers/BSP/inc/RTC.h
+ C:/CubeWorspace/stm32h563_fw/Drivers/BSP/inc/RTC.h \
+ ../Middlewares/Third_Party/CMSIS/RTOS2/Include/cmsis_os2.h
 ../Core/Inc/main.h:
 ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal.h:
 ../Core/Inc/stm32h5xx_hal_conf.h:
@@ -122,3 +123,4 @@ C:/CubeWorspace/stm32h563_fw/Drivers/BSP/inc/ASCII_escape.h:
 C:/CubeWorspace/stm32h563_fw/Middlewares/Solvine/Utils/inc/svRingBuffer.h:
 C:/CubeWorspace/stm32h563_fw/Drivers/BSP/inc/Reset.h:
 C:/CubeWorspace/stm32h563_fw/Drivers/BSP/inc/RTC.h:
+../Middlewares/Third_Party/CMSIS/RTOS2/Include/cmsis_os2.h:

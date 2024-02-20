@@ -337,3 +337,6 @@ VP_SYS_VS_tim6.Signal=SYS_VS_tim6
 board=custom
 rtos.0.ip=STMicroelectronics.X-CUBE-FREERTOS.1.1.0
 rtos.0.tasks.0=allocationType,Dynamic;bufferName,NULL;codeGen,Default;controlBlockName,NULL;entry,StartDefaultTask;name,defaultTask;parameter,NULL;priority,osPriorityNormal;stackSize,128
+rtos.0.tasks.1=allocationType,Dynamic;bufferName,NULL;codeGen,Default;controlBlockName,NULL;entry,StartTask02;name,myTask02;parameter,NULL;priority,osPriorityLow;stackSize,128
+rtos.0.tasks.2=allocationType,Dynamic;bufferName,NULL;codeGen,Default;controlBlockName,NULL;entry,StartTask03;name,myTask03;parameter,NULL;priority,osPriorityLow;stackSize,128
+isbadioc=false
