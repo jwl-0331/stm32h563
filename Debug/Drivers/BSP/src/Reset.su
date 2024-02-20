@@ -1,0 +1,6 @@
+../Drivers/CMSIS/Include/core_cm33.h:2711:34:__NVIC_SystemReset	4	static,ignoring_inline_asm
+../Drivers/BSP/src/Reset.c:16:6:Reset_ISR	8	static
+../Drivers/BSP/src/Reset.c:28:6:Reset_Init	16	static
+../Drivers/BSP/src/Reset.c:56:10:Reset_GetCount	4	static
+../Drivers/BSP/src/Reset.c:62:6:Reset_ToBoot	32	static,ignoring_inline_asm
+../Drivers/BSP/src/Reset.c:88:6:Reset_ToSysBoot	16	static
