@@ -1,6 +1,6 @@
 Core/Src/app_freertos.o: ../Core/Src/app_freertos.c \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
- ../Core/Inc/FreeRTOSConfig.h \
+ C:/CubeWorspace/stm32h563_fw/Core/Inc/FreeRTOSConfig.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h \
@@ -9,8 +9,9 @@ Core/Src/app_freertos.o: ../Core/Src/app_freertos.c \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h \
- ../Core/Inc/main.h ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal.h \
- ../Core/Inc/stm32h5xx_hal_conf.h \
+ C:/CubeWorspace/stm32h563_fw/Core/Inc/main.h \
+ ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal.h \
+ C:/CubeWorspace/stm32h563_fw/Core/Inc/stm32h5xx_hal_conf.h \
  ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_rcc.h \
  ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_def.h \
  ../Drivers/CMSIS/Device/ST/STM32H5xx/Include/stm32h5xx.h \
@@ -59,7 +60,7 @@ Core/Src/app_freertos.o: ../Core/Src/app_freertos.c \
  C:/CubeWorspace/stm32h563_fw/Drivers/BSP/inc/UART.h \
  C:/CubeWorspace/stm32h563_fw/Drivers/BSP/inc/BSPConfig.h
 ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
-../Core/Inc/FreeRTOSConfig.h:
+C:/CubeWorspace/stm32h563_fw/Core/Inc/FreeRTOSConfig.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h:
@@ -68,9 +69,9 @@ Core/Src/app_freertos.o: ../Core/Src/app_freertos.c \
 ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h:
 ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h:
-../Core/Inc/main.h:
+C:/CubeWorspace/stm32h563_fw/Core/Inc/main.h:
 ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal.h:
-../Core/Inc/stm32h5xx_hal_conf.h:
+C:/CubeWorspace/stm32h563_fw/Core/Inc/stm32h5xx_hal_conf.h:
 ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_rcc.h:
 ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_def.h:
 ../Drivers/CMSIS/Device/ST/STM32H5xx/Include/stm32h5xx.h:

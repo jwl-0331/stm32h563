@@ -1,6 +1,7 @@
-Core/Src/stm32h5xx_it.o: ../Core/Src/stm32h5xx_it.c ../Core/Inc/main.h \
+Core/Src/stm32h5xx_it.o: ../Core/Src/stm32h5xx_it.c \
+ C:/CubeWorspace/stm32h563_fw/Core/Inc/main.h \
  ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal.h \
- ../Core/Inc/stm32h5xx_hal_conf.h \
+ C:/CubeWorspace/stm32h563_fw/Core/Inc/stm32h5xx_hal_conf.h \
  ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_rcc.h \
  ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_def.h \
  ../Drivers/CMSIS/Device/ST/STM32H5xx/Include/stm32h5xx.h \
@@ -45,10 +46,10 @@ Core/Src/stm32h5xx_it.o: ../Core/Src/stm32h5xx_it.c ../Core/Inc/main.h \
  ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_ll_gpio.h \
  ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_ll_dma.h \
  ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_ll_exti.h \
- ../Core/Inc/stm32h5xx_it.h
-../Core/Inc/main.h:
+ C:/CubeWorspace/stm32h563_fw/Core/Inc/stm32h5xx_it.h
+C:/CubeWorspace/stm32h563_fw/Core/Inc/main.h:
 ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal.h:
-../Core/Inc/stm32h5xx_hal_conf.h:
+C:/CubeWorspace/stm32h563_fw/Core/Inc/stm32h5xx_hal_conf.h:
 ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_rcc.h:
 ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_hal_def.h:
 ../Drivers/CMSIS/Device/ST/STM32H5xx/Include/stm32h5xx.h:
@@ -93,4 +94,4 @@ Core/Src/stm32h5xx_it.o: ../Core/Src/stm32h5xx_it.c ../Core/Inc/main.h \
 ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_ll_gpio.h:
 ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_ll_dma.h:
 ../Drivers/STM32H5xx_HAL_Driver/Inc/stm32h5xx_ll_exti.h:
-../Core/Inc/stm32h5xx_it.h:
+C:/CubeWorspace/stm32h563_fw/Core/Inc/stm32h5xx_it.h:

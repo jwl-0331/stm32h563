@@ -131,6 +131,15 @@ int main(void)
   AppMain();
   /* USER CODE END 2 */
 
+  /* Init scheduler */
+  osKernelInitialize();
+
+  /* Call init function for freertos objects (in freertos.c) */
+  MX_FREERTOS_Init();
+
+  /* Start scheduler */
+  osKernelStart();
+
   /* We should never get here as control is now taken by the scheduler */
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
@@ -278,6 +287,7 @@ static void MX_ICACHE_Init(void)
 
 }
 
+
 /**
   * @brief UCPD1 Initialization Function
   * @param None
@@ -313,6 +323,7 @@ static void MX_UCPD1_Init(void)
   /* USER CODE END UCPD1_Init 2 */
 
 }
+
 
 /**
   * @brief USB Initialization Function

@@ -10,6 +10,15 @@ RM := rm -rf
 # All of the sources participating in the build are defined here
 -include sources.mk
 -include Middlewares/Third_Party/lwrb/src/subdir.mk
+-include Middlewares/Third_Party/LwIP/system/OS/subdir.mk
+-include Middlewares/Third_Party/LwIP/src/netif/ppp/polarssl/subdir.mk
+-include Middlewares/Third_Party/LwIP/src/netif/ppp/subdir.mk
+-include Middlewares/Third_Party/LwIP/src/netif/subdir.mk
+-include Middlewares/Third_Party/LwIP/src/core/ipv6/subdir.mk
+-include Middlewares/Third_Party/LwIP/src/core/ipv4/subdir.mk
+-include Middlewares/Third_Party/LwIP/src/core/subdir.mk
+-include Middlewares/Third_Party/LwIP/src/apps/mqtt/subdir.mk
+-include Middlewares/Third_Party/LwIP/src/api/subdir.mk
 -include Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/subdir.mk
 -include Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM33_NTZ/non_secure/subdir.mk
 -include Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/subdir.mk
